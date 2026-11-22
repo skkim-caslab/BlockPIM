@@ -94,7 +94,6 @@ for s in fig1/plot_ppl_compression.py fig1/plot_area_time.py table1/metadata_ove
 `run_all.sh` simulates the seven designs (NPU, SIGMA, DensePIM, SpaceA, SparsePIM, pSyncPIM,
 BlockPIM) at sparsity 0/30/50/80%, with and without KV-cache pruning, for batch sizes 1/16/32/64
 and both models, and overwrites `data/simulator/summary_sparsity_final_bs*_*_kv*.csv`.
-The included SIGMA results for batch sizes 16 and 64 come from an earlier revision of the SIGMA model.
 
 ```bash
 cd $BLOCKPIM_HOME/src/simulator
