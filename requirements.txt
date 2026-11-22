@@ -1,0 +1,9 @@
+# Figure scripts and simulator
+matplotlib
+numpy
+pandas
+torch
+scalesim==2.0.2
+# Pruning / perplexity (src/pruning, GPU required)
+transformers
+datasets

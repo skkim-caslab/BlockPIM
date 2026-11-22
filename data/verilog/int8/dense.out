@@ -1,0 +1,224 @@
+
+14. Printing statistics.
+
+=== $paramod$157a40da4ba0e5275557bc291e94e817b54a8f42\dense_pe ===
+
+   Number of wires:              13610
+   Number of wire bits:          14854
+   Number of public wires:          74
+   Number of public wire bits:    1318
+   Number of ports:                  7
+   Number of port bits:            772
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              13794
+     A2O1A1Ixp33_ASAP7_75t_SRAM     29
+     A2O1A1O1Ixp25_ASAP7_75t_SRAM      5
+     AND2x2_ASAP7_75t_SRAM         133
+     AND3x1_ASAP7_75t_SRAM         148
+     AND4x1_ASAP7_75t_SRAM         123
+     AND5x1_ASAP7_75t_SRAM           9
+     AO211x2_ASAP7_75t_SRAM          1
+     AO21x1_ASAP7_75t_SRAM         180
+     AO221x1_ASAP7_75t_SRAM          3
+     AO22x1_ASAP7_75t_SRAM          32
+     AO32x1_ASAP7_75t_SRAM           2
+     AOI211xp5_ASAP7_75t_SRAM       16
+     AOI21xp33_ASAP7_75t_SRAM      424
+     AOI221xp5_ASAP7_75t_SRAM        3
+     AOI22xp33_ASAP7_75t_SRAM      328
+     AOI311xp33_ASAP7_75t_SRAM       6
+     AOI31xp33_ASAP7_75t_SRAM       69
+     AOI32xp33_ASAP7_75t_SRAM        5
+     AOI33xp33_ASAP7_75t_SRAM        9
+     DFFASRHQNx1_ASAP7_75t_SRAM    257
+     INVx1_ASAP7_75t_SRAM         1132
+     MAJIxp5_ASAP7_75t_SRAM       1169
+     MAJx2_ASAP7_75t_SRAM          286
+     NAND2xp33_ASAP7_75t_SRAM     1880
+     NAND3xp33_ASAP7_75t_SRAM      330
+     NAND4xp25_ASAP7_75t_SRAM       61
+     NAND5xp2_ASAP7_75t_SRAM        34
+     NOR2xp33_ASAP7_75t_SRAM      1141
+     NOR3xp33_ASAP7_75t_SRAM       190
+     NOR4xp25_ASAP7_75t_SRAM        33
+     NOR5xp2_ASAP7_75t_SRAM         19
+     O2A1O1Ixp33_ASAP7_75t_SRAM     27
+     OA211x2_ASAP7_75t_SRAM         11
+     OA21x2_ASAP7_75t_SRAM         163
+     OA22x2_ASAP7_75t_SRAM           3
+     OAI211xp5_ASAP7_75t_SRAM       45
+     OAI21xp33_ASAP7_75t_SRAM      508
+     OAI221xp5_ASAP7_75t_SRAM        3
+     OAI22xp33_ASAP7_75t_SRAM      106
+     OAI311xp33_ASAP7_75t_SRAM       1
+     OAI31xp33_ASAP7_75t_SRAM       13
+     OAI32xp33_ASAP7_75t_SRAM        7
+     OR2x2_ASAP7_75t_SRAM          165
+     OR3x1_ASAP7_75t_SRAM           52
+     OR4x1_ASAP7_75t_SRAM           35
+     OR5x1_ASAP7_75t_SRAM            3
+     XNOR2xp5_ASAP7_75t_SRAM      3347
+     XOR2xp5_ASAP7_75t_SRAM       1248
+
+   Chip area for module '$paramod$157a40da4ba0e5275557bc291e94e817b54a8f42\dense_pe': 1362.326040
+     of which used for sequential elements: 97.423560 (7.15%)
+
+=== dense_spmv_8bank ===
+
+   Number of wires:                 10
+   Number of wire bits:           6158
+   Number of public wires:           8
+   Number of public wire bits:    6156
+   Number of ports:                  7
+   Number of port bits:           6148
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 11
+     $paramod$157a40da4ba0e5275557bc291e94e817b54a8f42\dense_pe      8
+     NAND4xp25_ASAP7_75t_SRAM        2
+     NOR2xp33_ASAP7_75t_SRAM         1
+
+   Area for cell type $paramod$157a40da4ba0e5275557bc291e94e817b54a8f42\dense_pe is unknown!
+
+   Chip area for module '\dense_spmv_8bank': 0.233280
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== design hierarchy ===
+
+   dense_spmv_8bank                  1
+     $paramod$157a40da4ba0e5275557bc291e94e817b54a8f42\dense_pe      8
+
+   Number of wires:             108890
+   Number of wire bits:         124990
+   Number of public wires:         600
+   Number of public wire bits:   16700
+   Number of ports:                 63
+   Number of port bits:          12324
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:             110355
+     A2O1A1Ixp33_ASAP7_75t_SRAM    232
+     A2O1A1O1Ixp25_ASAP7_75t_SRAM     40
+     AND2x2_ASAP7_75t_SRAM        1064
+     AND3x1_ASAP7_75t_SRAM        1184
+     AND4x1_ASAP7_75t_SRAM         984
+     AND5x1_ASAP7_75t_SRAM          72
+     AO211x2_ASAP7_75t_SRAM          8
+     AO21x1_ASAP7_75t_SRAM        1440
+     AO221x1_ASAP7_75t_SRAM         24
+     AO22x1_ASAP7_75t_SRAM         256
+     AO32x1_ASAP7_75t_SRAM          16
+     AOI211xp5_ASAP7_75t_SRAM      128
+     AOI21xp33_ASAP7_75t_SRAM     3392
+     AOI221xp5_ASAP7_75t_SRAM       24
+     AOI22xp33_ASAP7_75t_SRAM     2624
+     AOI311xp33_ASAP7_75t_SRAM      48
+     AOI31xp33_ASAP7_75t_SRAM      552
+     AOI32xp33_ASAP7_75t_SRAM       40
+     AOI33xp33_ASAP7_75t_SRAM       72
+     DFFASRHQNx1_ASAP7_75t_SRAM   2056
+     INVx1_ASAP7_75t_SRAM         9056
+     MAJIxp5_ASAP7_75t_SRAM       9352
+     MAJx2_ASAP7_75t_SRAM         2288
+     NAND2xp33_ASAP7_75t_SRAM    15040
+     NAND3xp33_ASAP7_75t_SRAM     2640
+     NAND4xp25_ASAP7_75t_SRAM      490
+     NAND5xp2_ASAP7_75t_SRAM       272
+     NOR2xp33_ASAP7_75t_SRAM      9129
+     NOR3xp33_ASAP7_75t_SRAM      1520
+     NOR4xp25_ASAP7_75t_SRAM       264
+     NOR5xp2_ASAP7_75t_SRAM        152
+     O2A1O1Ixp33_ASAP7_75t_SRAM    216
+     OA211x2_ASAP7_75t_SRAM         88
+     OA21x2_ASAP7_75t_SRAM        1304
+     OA22x2_ASAP7_75t_SRAM          24
+     OAI211xp5_ASAP7_75t_SRAM      360
+     OAI21xp33_ASAP7_75t_SRAM     4064
+     OAI221xp5_ASAP7_75t_SRAM       24
+     OAI22xp33_ASAP7_75t_SRAM      848
+     OAI311xp33_ASAP7_75t_SRAM       8
+     OAI31xp33_ASAP7_75t_SRAM      104
+     OAI32xp33_ASAP7_75t_SRAM       56
+     OR2x2_ASAP7_75t_SRAM         1320
+     OR3x1_ASAP7_75t_SRAM          416
+     OR4x1_ASAP7_75t_SRAM          280
+     OR5x1_ASAP7_75t_SRAM           24
+     XNOR2xp5_ASAP7_75t_SRAM     26776
+     XOR2xp5_ASAP7_75t_SRAM       9984
+
+   Chip area for top module '\dense_spmv_8bank': 10898.841600
+     of which used for sequential elements: 779.388480 (7.15%)
+
+Startpoint: bank_gen[0].pe/_27074_
+            (rising edge-triggered flip-flop clocked by clk)
+Endpoint: bank_gen[0].pe/_27305_
+          (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ bank_gen[0].pe/_27074_/CLK (DFFASRHQNx1_ASAP7_75t_SRAM)
+  75.80   75.80 v bank_gen[0].pe/_27074_/QN (DFFASRHQNx1_ASAP7_75t_SRAM)
+  48.52  124.32 ^ bank_gen[0].pe/_14062_/Y (NOR2xp33_ASAP7_75t_SRAM)
+  58.07  182.39 ^ bank_gen[0].pe/_14284_/Y (MAJx2_ASAP7_75t_SRAM)
+  30.75  213.14 v bank_gen[0].pe/_14659_/Y (MAJIxp5_ASAP7_75t_SRAM)
+  41.58  254.72 ^ bank_gen[0].pe/_15854_/Y (MAJIxp5_ASAP7_75t_SRAM)
+  46.27  301.00 ^ bank_gen[0].pe/_15857_/Y (MAJx2_ASAP7_75t_SRAM)
+  37.32  338.31 ^ bank_gen[0].pe/_16670_/Y (MAJx2_ASAP7_75t_SRAM)
+  37.37  375.68 ^ bank_gen[0].pe/_17704_/Y (MAJx2_ASAP7_75t_SRAM)
+  27.38  403.07 v bank_gen[0].pe/_18818_/Y (MAJIxp5_ASAP7_75t_SRAM)
+  40.57  443.64 v bank_gen[0].pe/_19997_/Y (OA21x2_ASAP7_75t_SRAM)
+  34.44  478.08 ^ bank_gen[0].pe/_21267_/Y (MAJIxp5_ASAP7_75t_SRAM)
+  40.04  518.12 v bank_gen[0].pe/_22387_/Y (MAJIxp5_ASAP7_75t_SRAM)
+  41.10  559.21 v bank_gen[0].pe/_23356_/Y (OA21x2_ASAP7_75t_SRAM)
+  38.93  598.14 v bank_gen[0].pe/_24299_/Y (MAJx2_ASAP7_75t_SRAM)
+  38.42  636.56 ^ bank_gen[0].pe/_25124_/Y (OAI21xp33_ASAP7_75t_SRAM)
+  43.79  680.35 v bank_gen[0].pe/_25732_/Y (MAJIxp5_ASAP7_75t_SRAM)
+  45.38  725.74 ^ bank_gen[0].pe/_26072_/Y (OAI21xp33_ASAP7_75t_SRAM)
+  44.14  769.87 v bank_gen[0].pe/_26173_/Y (MAJIxp5_ASAP7_75t_SRAM)
+  34.60  804.47 ^ bank_gen[0].pe/_26380_/Y (AOI21xp33_ASAP7_75t_SRAM)
+  38.23  842.69 v bank_gen[0].pe/_26444_/Y (AOI221xp5_ASAP7_75t_SRAM)
+  53.05  895.74 ^ bank_gen[0].pe/_26454_/Y (NOR4xp25_ASAP7_75t_SRAM)
+  58.78  954.52 v bank_gen[0].pe/_26473_/Y (A2O1A1Ixp33_ASAP7_75t_SRAM)
+  64.16 1018.69 ^ bank_gen[0].pe/_26495_/Y (OAI311xp33_ASAP7_75t_SRAM)
+  60.72 1079.40 v bank_gen[0].pe/_26519_/Y (NAND5xp2_ASAP7_75t_SRAM)
+ 103.18 1182.58 ^ bank_gen[0].pe/_26522_/Y (AOI21xp33_ASAP7_75t_SRAM)
+ 105.11 1287.70 v bank_gen[0].pe/_26922_/Y (NAND2xp33_ASAP7_75t_SRAM)
+ 139.92 1427.62 ^ bank_gen[0].pe/_26978_/Y (NOR4xp25_ASAP7_75t_SRAM)
+  93.11 1520.73 ^ bank_gen[0].pe/_27005_/Y (AND3x1_ASAP7_75t_SRAM)
+  33.48 1554.21 v bank_gen[0].pe/_27010_/Y (NAND2xp33_ASAP7_75t_SRAM)
+  29.48 1583.69 ^ bank_gen[0].pe/_27015_/Y (O2A1O1Ixp33_ASAP7_75t_SRAM)
+   0.00 1583.69 ^ bank_gen[0].pe/_27305_/D (DFFASRHQNx1_ASAP7_75t_SRAM)
+        1583.69   data arrival time
+
+   1.06    1.06   clock clk (rise edge)
+   0.00    1.06   clock network delay (ideal)
+   0.00    1.06   clock reconvergence pessimism
+           1.06 ^ bank_gen[0].pe/_27305_/CLK (DFFASRHQNx1_ASAP7_75t_SRAM)
+ -38.19  -37.13   library setup time
+         -37.13   data required time
+---------------------------------------------------------
+         -37.13   data required time
+        -1583.69   data arrival time
+---------------------------------------------------------
+        -1620.82   slack (VIOLATED)
+
+
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.37e+00   4.88e-03   6.99e-08   1.37e+00  37.9%
+Combinational          9.91e-01   1.26e+00   1.28e-06   2.25e+00  62.1%
+Clock                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  2.36e+00   1.27e+00   1.35e-06   3.62e+00 100.0%
+                          65.1%      34.9%       0.0%

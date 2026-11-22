@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "BlockPIM: Enabling Sparse LLM Inference on Dense PIM Architectures"
+repository-code: "https://github.com/skkim-caslab/BlockPIM"
+authors:
+  - family-names: Kim
+    given-names: Seulki
+    affiliation: DGIST
+  - family-names: Jang
+    given-names: Yewon
+    affiliation: Yonsei University
+  - family-names: Jeon
+    given-names: Yunhyeong
+    affiliation: DGIST
+  - family-names: Ryu
+    given-names: Kyeonghyeon
+    affiliation: DGIST
+  - family-names: Kim
+    given-names: Daehoon
+    affiliation: Yonsei University
+preferred-citation:
+  type: article
+  title: "BlockPIM: Enabling Sparse LLM Inference on Dense PIM Architectures"
+  authors:
+    - family-names: Kim
+      given-names: Seulki
+    - family-names: Jang
+      given-names: Yewon
+    - family-names: Jeon
+      given-names: Yunhyeong
+    - family-names: Ryu
+      given-names: Kyeonghyeon
+    - family-names: Kim
+      given-names: Daehoon
+  journal: "IEEE Computer Architecture Letters"
+  publisher:
+    name: IEEE
+  volume: 25
+  issue: 2
+  start: 311
+  end: 314
+  month: 7
+  year: 2026
+  doi: "10.1109/LCA.2026.3715204"
+  url: "https://ieeexplore.ieee.org/document/11616633/"

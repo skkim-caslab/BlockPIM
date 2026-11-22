@@ -1,0 +1,45 @@
+# ----------------------------------------------------------------------------
+# Python
+# ----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ----------------------------------------------------------------------------
+# Simulator runtime files (src/simulator/)
+# simulate.py writes a per-run log and per-operator cache files; none of them
+# are inputs. The directories themselves are kept with .gitkeep.
+# ----------------------------------------------------------------------------
+src/simulator/logs/
+src/simulator/configs/*
+!src/simulator/configs/.gitkeep
+src/simulator/systolic_array_model/temp/*
+!src/simulator/systolic_array_model/temp/.gitkeep
+
+# ----------------------------------------------------------------------------
+# Synthesis outputs (src/verilog/); reports go to data/verilog/int8/
+# ----------------------------------------------------------------------------
+src/verilog/*/synthesized_*.v
+
+# ----------------------------------------------------------------------------
+# Pruning outputs (src/pruning/)
+# ----------------------------------------------------------------------------
+src/pruning/spresults/
+src/pruning/ppl_rerun.csv
+*.pt
+*.safetensors
+
+# ----------------------------------------------------------------------------
+# AE outputs (reference figures live in docs/figures/)
+# ----------------------------------------------------------------------------
+src/ae/*/*.png
+src/ae/table1/table1_metadata_overhead.csv
+
+# ----------------------------------------------------------------------------
+# Editors / OS
+# ----------------------------------------------------------------------------
+*.swp
+.DS_Store
+.vscode/
+.idea/
