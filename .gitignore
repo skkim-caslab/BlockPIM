@@ -31,7 +31,7 @@ src/pruning/ppl_rerun.csv
 *.safetensors
 
 # ----------------------------------------------------------------------------
-# AE outputs (reference figures live in docs/figures/)
+# AE outputs
 # ----------------------------------------------------------------------------
 src/ae/*/*.png
 src/ae/table1/table1_metadata_overhead.csv

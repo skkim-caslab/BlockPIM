@@ -42,7 +42,6 @@ each format's metadata overhead. `run_sparsity_sweep.py` writes both settings
 # One design point: LLaMA-3 8B (d_model 4096, 32 heads), BlockPIM, 50% sparsity, batch 1
 python simulate.py 1 ./Tiles/test_tile/double_512_N_large_stackpim_int8.json 4096 32 \
     --datatype int8 --sparsity 0.5 --bs 1
-# Latency, 0.0007780301768480441
 
 # All Fig. 5/6 inputs (writes data/simulator/summary_sparsity_final_bs*_*_kv*.csv)
 bash run_all.sh
